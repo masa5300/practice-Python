@@ -19,3 +19,11 @@ print(not False)
 BMI = 20
 if BMI >= 18 and BMI < 25:
     print('nomal weight')
+BMI = 18.00
+
+if BMI >= 25:
+    print('overweight')
+elif BMI >= 18 and BMI < 25:
+    print('nomal weight')
+else:
+    print('underweight')
