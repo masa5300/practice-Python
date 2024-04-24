@@ -27,3 +27,13 @@ elif BMI >= 18 and BMI < 25:
     print('nomal weight')
 else:
     print('underweight')
+for i in range(0,5):
+    print('Python文法',i)
+
+menu = ['salad','soup','steak','cake']
+for food in menu:
+    print(food)
+
+menu = ['salad','soup','steak','cake']
+for i,food in enumerate(menu):
+    print(i,food)
